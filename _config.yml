@@ -1,0 +1,161 @@
+# External gems
+# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: The Word For The Week
+subtitle: Church For People Who Just Can&#39;t
+email: pastordanschultz@gmail.com
+name: Daniel Schultz
+description: >
+  Podcasts, Sermons, and Other Things Rolling up A Pastor&#39;s Notebook and Stranger Jesus
+# Base URL of site (i.e. /blog). It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+baseurl: "/wftw" # the subpath of your site, e.g. /blog/
+url: "http://bencentra.github.io" # the base hostname & protocol for your site
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+tempurl: "http://127.0.0.1:4000/centrarium-master"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled: all
+    - categories
+    - tags
+    - year
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+    year: '/archives/year/:year/'
+
+# Disqus comments
+# disqus_shortname: bencentra
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: Sermons
+    desc: "Written versions. See Podcasts for recordings."
+
+  - cat: Podcasts
+    desc: "Recorded sermons and shows. May or may not include texts."
+
+  - cat: Blogposts
+    desc: "Pretty much anything that's not a sermon or a podcast."
+
+  - cat: 2012
+    desc: "Everything from 2012"
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+#
+# Example:
+#
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share: true                           # Include in the "Share" section of posts
+social:
+  - name: Twitter
+    icon: fab fa-twitter
+    username: Twitter
+    url: https://twitter.com/pastordan
+    desc: Follow me on Twitter
+    share: true
+
+  - name: Facebook
+    icon: fab fa-facebook-f
+    username: Facebook
+    url: https://www.facebook.com/DanielSchultzWriter/
+    desc: Friend me on Facebook
+    share: true
+
+  - name: LinkedIn
+    icon: fab fa-linkedin-in
+    username: LinkedIn
+    url: https://www.linkedin.com/in/daniel-schultz-writer/
+    desc: Connect with me on LinkedIn
+    share: true
+
+  - name: Instagram
+    icon: fab fa-instagram
+    username: Instagram
+    url: https://www.instagram.com/rev.daniel.schultz/
+    desc: Pretty Pretty Pictures
+    share: true
+
+  - name: Reddit
+    icon: fab fa-reddit-alien
+    username:
+    url:
+    desc: Share to Reddit
+    share: true
+
+# Podcast settings
+# Where to find the podcast
+podcast:
+  - name: iTunes
+    icon: fab fa-itunes-note
+    username: iTunes
+    url: https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
+    desc: Hear me on iTunes
+    share: false
+
+  - name: Libsyn
+    icon: fas fa-podcast
+    username: LibSyn
+    url: http://strangerjesus.libsyn.com
+    desc: Listen on Libsyn
+    share: false
+
+  - name: Google Play
+    icon: fab fa-google-play
+    username: Google Play
+    url: https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Ignkvycsguee33lf3fbtxlet2ym?t%3DStranger_Jesus%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16
+    desc: Podcast on Google Play
+    share: false
+
+
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:bencentra/centrarium.com.git"
