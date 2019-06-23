@@ -8,6 +8,9 @@
     {% include header.html %}
 
     <div class="page-content">
+    	{% if page.image %}
+  		<img src="{{ site.baseurl }}/img/{{ page.image }}" title="{{ page.img-title }}" class="post-image">
+  		{% endif %}
         {{ content }}
     </div>
 
