@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/pastordan.JPG" title="&copy; Lisa Kidd for Marian University" alt="Daniel Schultz" class="profile">
+<img src="{{ site.baseurl }}/assets/pastordan.jpg" title="&copy; Lisa Kidd for Marian University" alt="Daniel Schultz" class="profile">
 
 Daniel Schultz has been an ordained minister in the <a href="http://www.ucc.org">United Church of Christ</a> since 1999. He has served mostly small, mostly rural congregations in Georgia, Pennsylvania, and Wisconsin. He currently teaches theology and works for a non-profit organization that seeks to increase civic engagement on college campuses. None of his employers are responsible for what he says.
 
