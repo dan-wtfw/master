@@ -10,10 +10,12 @@ layout: default
 
   {% include page_divider.html %}
 
-  <article class="post-content">
-  	{% if page.image%}
-  		<img src="{{ site.baseurl }}/img/{{ page.image }}" title="{{ page.img-title }}">
+  {% if page.image%}
+  		<img src="{{ site.baseurl }}/img/{{ page.image }}" title="{{ page.img-title }}" class="post-image">
   	{% end if%}
+
+  <article class="post-content">
+
     {{ content }}
   </article>
 
