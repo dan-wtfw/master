@@ -9,13 +9,11 @@ layout: default
   </header>
 
   {% include page_divider.html %}
-
   {% if page.image %}
   		<img src="{{ site.baseurl }}/img/{{ page.image }}" title="{{ page.img-title }}" class="post-image">
-  {% end if%}
+  {% endif %}
 
   <article class="post-content">
-
     {{ content }}
   </article>
 
