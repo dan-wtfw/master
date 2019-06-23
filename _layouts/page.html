@@ -11,7 +11,9 @@ layout: default
   {% include page_divider.html %}
 
   <article class="post-content">
-  	{% if page.image%}{{ page.image }}
+  	{% if page.image%}
+  		<img src="{{ site.baseurl }}/img/{{ page.image }}" title="{{ page.img-title }}">
+  	{% end if%}
     {{ content }}
   </article>
 
