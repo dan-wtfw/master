@@ -101,14 +101,14 @@ God may have given up on the kingdom, but he has not given up on the people. God
 
 And now you understand what it means to pray: 
 
-<blockquote><em>Our Father, who art in heaven,
-hallowed by thy name.
-Thy kingdom come, thy will be done,
-on earth as it is in heaven
-Give us this day our daily bread
-and forgive us our sins as we forgive those who sin against us.
-And lead us not into temptation,
-but deliver from us evil,
+<blockquote><em>Our Father, who art in heaven,<br />
+hallowed by thy name.<br />
+Thy kingdom come, thy will be done,<br />
+on earth as it is in heaven<br />
+Give us this day our daily bread<br />
+and forgive us our sins as we forgive those who sin against us.<br />
+And lead us not into temptation,<br />
+but deliver from us evil,<br />
 for thine is the kingdom and the power and the glory forever and ever. Amen.</em></blockquote>
 
 May that be your prayer and mine, now and always, and may God be with all of us, all the days of our lives. Amen.
